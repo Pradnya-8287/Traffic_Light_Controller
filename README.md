@@ -17,3 +17,8 @@ Each traffic light output is 3 bits (RYG):
 <p align="center">
   <img src="./png/RYG.png" width="700"> 
 </p>
+## Simulation Details
+- Clock period: 10 ns
+- Reset: Active HIGH
+- Simulation time: 1000 ns
+- Waveform file: `Traffic_Light_Controller.vcd`
