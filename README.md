@@ -26,10 +26,12 @@ Each traffic light output is 3 bits (RYG):
 - Simulation time: 1000 ns
 - Waveform file: `Traffic_Light_Controller.vcd`
 
-## How to RUN
+## How to RUN (Icarus Verilog)
 
 ```verilog
 iverilog -o .\Traffic_Light_Controller.vvp .\Traffic_Light_Controller_tb.v
 vvp Traffic_Light_Controller.vvp
 gtkwave.exe .\Traffic_Light_Controller.vcd
 ```
+
+
