@@ -7,4 +7,6 @@ The controller manages traffic lights for:
 - Side Road (S)
 Each traffic light follows the Red–Yellow–Green (RYG) sequence based on a timed finite state machine.
 # FSM Overview
-![State Description](./FSM_Overview.png)
+<p align="center">
+  <img src="./FSM_Overview.png" width="700">
+</p>
