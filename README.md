@@ -6,7 +6,14 @@ The controller manages traffic lights for:
 - Main Turn (MT)
 - Side Road (S)
 Each traffic light follows the Red–Yellow–Green (RYG) sequence based on a timed finite state machine.
-# FSM Overview
+## FSM Overview
+The controller uses 6 states (S1–S6):
 <p align="center">
   <img src="./FSM _Overview.png" width="700"> 
+</p>
+State transitions are controlled using an internal counter that holds the FSM in a state for a fixed duration.
+## Light Encoding
+Each traffic light output is 3 bits (RYG):
+<p align="center">
+  <img src="./RYG.png" width="700"> 
 </p>
