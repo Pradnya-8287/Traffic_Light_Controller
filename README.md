@@ -8,5 +8,5 @@ The controller manages traffic lights for:
 Each traffic light follows the Red–Yellow–Green (RYG) sequence based on a timed finite state machine.
 # FSM Overview
 <p align="center">
-  <img src="./FSM_Overview.png" width="700">
+  <img src="./FSM _Overview.png" width="700"> 
 </p>
